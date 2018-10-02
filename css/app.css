@@ -19,6 +19,8 @@
   display: flex;
   justify-content: space-between;
   width: 22%;
+  padding-top: 5px;
+
 
 }
 .info-container {
@@ -66,4 +68,37 @@
 .btn:not(:disabled):not(.disabled) {
   width: 32%;
 
+}
+
+.foot-info-sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foot-info-container {
+  justify-content: space-around;
+  display: flex;
+}
+
+.bg-primary {
+  background-color: #212529!important;
+}
+
+.btn {
+  /* background-color: #212529!important; */
+
+}
+
+.email {
+  color: #212529!important;
+}
+
+.click-links {
+  color: white!important;
+}
+
+.foot-links:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
