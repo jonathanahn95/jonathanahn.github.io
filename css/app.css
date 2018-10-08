@@ -7,21 +7,22 @@
   font-size: 16px;
   width: 70%!important;
   margin: auto;
-  color: white;
+  color: black;
 
 }
 
 .betterhelp-container {
   display: flex;
 }
+.nav-link js-scroll-trigger {
+  color: white;
 
+}
 .live-git {
+  margin: auto;
+
   display: flex;
   justify-content: space-between;
-  width: 22%;
-  padding-top: 5px;
-
-
 }
 .info-container {
   display: flex;
@@ -30,15 +31,28 @@
 
 .project-name {
   display: flex;
-  /* width: 15%; */
+  color: black;
+
 }
 
+.my-4 {
+  padding-bottom: 0px!important;
+}
+
+.mb-4 {
+  padding-bottom: 0px!important;
+
+}
 .link-container {
   display: flex;
   width: 100%;
   padding-top: 30px;
   /* border: 1px solid; */
   justify-content: space-around;
+}
+.project-container {
+  border: 1px solid #CCCCCC;
+
 }
 
 .betterhelp-container-2 {
@@ -50,20 +64,90 @@
   height: 90%!important;
 }
 
+.text-uppercase {
+  color: white;
+}
 
 .headshot {
+  padding-bottom: 20px;
   border-radius: 100%;
+}
+hr.light {
+    border-color: orange;
 }
 
 .mb-4 {
   padding-top: 70px;
   margin-bottom: 4.5rem!important;
-  color: white;
+  color: black!important;
 }
 
-.p-0 {
-  background-color: #212529;
+.test {
+  display: flex;
 }
+.p-0 {
+  /* background-color: #212529; */
+  background-color: #f7f7f7;
+
+}
+.h3, h3 {
+    font-size: 1.45rem;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+    padding-bottom: 80px;
+}
+
+.skill-container {
+  display:flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.text-faded {
+  color: white;
+  /* font-size: 44px */
+  /* font-weight: bolder; */
+
+}
+.btn {
+  color: white;
+  background-color: #212529;
+
+}
+
+.header.masthead{
+  background-image: url(../img/port-back.jpg)!important;
+}
+
+#contact {
+  background-color: #f7f7f7;
+
+}
+
+.placeholder {
+  padding: 0 15px;
+}
+
+.new-container-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.project-name-new {
+  color: black;
+  font-size: 23px;
+  padding: 30px 0 20px 0;
+}
+
+.p-new {
+  color: #777;
+  /* width: 30%; */
+    margin: auto;
+}
+
+
 
 .btn:not(:disabled):not(.disabled) {
   width: 32%;
@@ -82,12 +166,16 @@
 }
 
 .bg-primary {
-  background-color: #212529!important;
+  background-color: white!important;
 }
 
-.btn {
-  /* background-color: #212529!important; */
+.text-white {
+  color: black!important;
+}
 
+.live-git-new {
+  display: flex;
+  justify-content: space-around;
 }
 
 .email {
@@ -95,9 +183,17 @@
 }
 
 .click-links {
-  color: white!important;
+  color: #777!important;
+  /* border: 1px solid #777; */
+  padding: 8px 35px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  /* margin-top: 30px; */
 }
+.foot-links{
+  color: black;
 
+}
 .foot-links:hover {
   cursor: pointer;
   text-decoration: underline;

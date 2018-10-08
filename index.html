@@ -33,7 +33,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Jon Ahn</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,16 +43,16 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Resume</a>
+              <a href='file:///Users/estherahn92/Desktop/jonahn_resume.pdf' class="nav-link js-scroll-trigger" href="#contact">Resume</a>
             </li>
           </ul>
         </div>
@@ -63,6 +63,7 @@
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
+
             <h1 class="text-uppercase">
               <strong>Jonathan Ahn</strong>
             </h1>
@@ -70,7 +71,7 @@
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">Full Stack Web Developer</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Resume</a>
+            <a href='file:///Users/estherahn92/Desktop/jonahn_resume.pdf'class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Resume</a>
           </div>
         </div>
       </div>
@@ -81,18 +82,70 @@
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <img class='headshot' src='./img/portfolio/thumbnails/headshot.png'></img>
-            <br></br>
+
             <h2 class="section-heading text-white">About Me</h2>
             <hr class="light my-4">
             <p class="text-faded mb-4">I’m a passionate software developer with the innovative and creative mindset of an entrepreneur. I have experience building dynamic web applications in JavaScript, Ruby on Rails, React, Redux, and HTML/CSS. I love the battle of developing an idea into existence, and forging the bridge between conceptualization and a tangible, impactful product. Programming has been my outlet for problem-solving and creative expression.
 
 </p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="p-0" id="portfolio">
+            <div class="container text-center">
+            <h2 class="mb-4">Projects</h2>
+              <div class='project-container'>
+                <div class='betterhelp-container'>
+                <img height='300px' width='550px' class="img-fluid" src="img/betterhelp.png" alt="">
+                  <div class='info-container'>
+                    <div class='link-container'>
+                    <p class='project-name'>BetterHelp</p>
+                    </div>
+                      <p class='p'>A search service powered by crowd-sourced review forum inspired by Yelp with a React frontend and RESTful, Ruby on Rails backend</p>
+                      <div class='live-git'>
+                        <a class ='click-links' href="https://betterhelp.herokuapp.com/#/">Live</a>
+                        <a class ='click-links' href="https://github.com/jonathanahn95/BetterHelp">GitHub</a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <br></br>
+              <div class='project-container'>
+                <div class='betterhelp-container-2'>
+                <img height='400px' width='520px' class="img-fluid" src="img/fatalstart.png" alt="">
+                  <div class='info-container'>
+                    <div class='link-container'>
+                    <p class='project-name'>Fatal-Start</p>
+                    </div>
+                    <p class='p'>Fatal-Start is a browser game written in ES6 syntax JavaScript and inspired by Dragon Ball Z. The elements of the game are rendered using canvas and HTML5.</p>
+                    <div class='live-git'>
+                      <a class ='click-links' href="http://fatal-start.jonahn.io/">Live</a>
+                      <a class ='click-links' href="https://github.com/jonathanahn95/Fatal-Start">GitHub</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <br></br>
+            <div class='project-container'>
+              <div class='betterhelp-container'>
+              <img height='300px' width='550px' class="img-fluid" src="img/fume1.png" alt="">
+                <div class='info-container'>
+                  <div class='link-container'>
+                  <p class='project-name'>Fume</p>
+                  </div>
+                  <p class='p'>
+                    Fume is a ORM (Object Relational Management) and MVC (Model View Controller) framework written in Ruby. ControllerBase provides a base controller class, and Router provides basic routing capablitlties that renders corresponding views.</p>
+                    <div class='live-git'>
+                      <a class ='click-links' href="https://github.com/jonathanahn95/Fume">GitHub</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+              <br></br>
+          </div>
+        </section>
     <section id="services">
       <div class="container">
         <div class="row">
@@ -104,52 +157,56 @@
       </div>
       <div class="container">
         <div class="row">
+      <div class='skill-container'>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img width='80px' height='80px' class=" text-primary mb-3 sr-icon-2" src="img/js.png" alt="">
+              <img width='70px' height='70px' class=" text-primary mb-3 sr-icon-2" src="img/js.png" alt="">
 
               <h3 class="mb-3">JavaScript</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img width='100px' height='80px' class=" text-primary mb-3 sr-icon-2" src="img/react.png" alt="">
+              <img width='70px' height='70px' class=" text-primary mb-3 sr-icon-2" src="img/react.png" alt="">
               <h3 class="mb-3">React</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img width='80px' height='80px' class=" text-primary mb-3 sr-icon-2" src="img/rails.png" alt="">
-              <h3 class="mb-3">Ruby on Rails</h3>
+              <img width='70px' height='70px' class=" text-primary mb-3 sr-icon-2" src="img/rails.png" alt="">
+              <h3 class="mb-3">Rails</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img width='80px' height='80px' class=" text-primary mb-3 sr-icon-2" src="img/redux.png" alt="">
+              <img width='70px' height='70px' class=" text-primary mb-3 sr-icon-2" src="img/redux.png" alt="">
               <h3 class="mb-3">Redux</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img width='100px' height='80px' class=" text-primary mb-3 sr-icon-2" src="img/ruby.png" alt="">
+              <img width='100px' height='70px' class=" text-primary mb-3 sr-icon-2" src="img/ruby.png" alt="">
               <h3 class="mb-3">Ruby</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img width='80px' height='80px' class=" text-primary mb-3 sr-icon-2" src="img/post.png" alt="">
+              <img width='70px' height='70px' class=" text-primary mb-3 sr-icon-2" src="img/post.png" alt="">
               <h3 class="mb-3">PostgreSQL</h3>
             </div>
           </div>
+
+        </div>
+        <div class='skill-container'>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img width='80px' height='80px' class=" text-primary mb-3 sr-icon-2" src="img/html5.png" alt="">
+              <img width='60px' height='60px' class=" text-primary mb-3 sr-icon-2" src="img/html5.png" alt="">
               <h3 class="mb-3">HTML5 + Canvas</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img width='80px' height='80px' class=" text-primary mb-3 sr-icon-2" src="img/jquery.png" alt="">
+              <img width='60px' height='60px' class=" text-primary mb-3 sr-icon-2" src="img/jquery.png" alt="">
               <h3 class="mb-3">jQuery</h3>
             </div>
           </div>
@@ -182,58 +239,6 @@
 
         </div>
       </div>
-    </section>
-<section class="p-0" id="portfolio">
-        <div class="container text-center">
-        <h2 class="mb-4">Projects</h2>
-          <div class='project-container'>
-            <div class='betterhelp-container'>
-            <img height='300px' width='550px' class="img-fluid" src="img/betterhelp.png" alt="">
-              <div class='info-container'>
-                <div class='link-container'>
-                <p class='project-name'>BetterHelp</p>
-                  <div class='live-git'>
-                    <a class ='click-links' href="https://betterhelp.herokuapp.com/#/">Live</a>
-                    <a class ='click-links' href="https://github.com/jonathanahn95/BetterHelp">GitHub</a>
-                  </div>
-                </div>
-                  <p class='p'>A search service powered by crowd-sourced review forum inspired by Yelp with a React frontend and RESTful, Ruby on Rails backend</p>
-              </div>
-            </div>
-          </div>
-          <br></br>
-          <div class='project-container'>
-            <div class='betterhelp-container-2'>
-            <img height='300px' width='550px' class="img-fluid" src="img/fatalstart.png" alt="">
-              <div class='info-container'>
-                <div class='link-container'>
-                <p class='project-name'>Fatal Start</p>
-                  <div class='live-git'>
-                    <a class ='click-links' href="http://fatal-start.jonahn.io/">Live</a>
-                    <a class ='click-links' href="https://github.com/jonathanahn95/Fatal-Start">GitHub</a>
-                  </div>
-                </div>
-                <p class='p'>Fatal Start is a browser game written in ES6 syntax JavaScript and inspired by Dragon Ball Z. The elements of the game are rendered using canvas and HTML5.</p>
-              </div>
-            </div>
-          </div>
-        <br></br>
-        <div class='project-container'>
-          <div class='betterhelp-container'>
-          <img height='300px' width='550px' class="img-fluid" src="img/fume1.png" alt="">
-            <div class='info-container'>
-              <div class='link-container'>
-              <p class='project-name'>Fume</p>
-                <div class='live-git'>
-                  <a class ='click-links' href="https://github.com/jonathanahn95/Fume">GitHub</a>
-                </div>
-              </div>
-              <p class='p'>
-                Fume is a ORM (Object Relational Management) and MVC (Model View Controller) framework written in Ruby. ControllerBase provides a base controller class, and Router provides basic routing capablitlties that renders corresponding views.</p>
-              </div>
-          </div>
-        </div>
-          <br></br>
       </div>
     </section>
 
@@ -252,15 +257,15 @@
               </div>
               <div class='foot-info-sub-container '>
                 <i class="fab fa-github fa-3x mb-3 sr-contact-1"></i>
-                <p class='foot-links'>Github</p>
+                <a href="https://github.com/jonathanahn95"><p class='foot-links'>GitHub</p></a>
               </div>
               <div class='foot-info-sub-container '>
                 <i class="fab fa-linkedin fa-3x mb-3 sr-contact-1"></i>
-                <p class='foot-links'>LinkedIn</p>
+                <a href="https://www.linkedin.com/in/jonathan-ahn-28981211b/"><p class='foot-links'>LinkedIn</p></a>
               </div>
               <div class='foot-info-sub-container '>
                 <i class="fas fa-file-alt fa-3x mb-3 sr-contact-1"></i>
-                <p  class='foot-links'>Resume</p>
+                <a href='file:///Users/estherahn92/Desktop/jonahn_resume.pdf'><p  class='foot-links'>Resume</p></a>
               </div>
               <div class='foot-info-sub-container '>
                 <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
